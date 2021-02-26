@@ -1,0 +1,56 @@
+package coreJavaExerciseOperatorsAndNumbers.main;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int userInput = 001;
+		//caclIntegerBinary();
+		caclIntegerBinaryToDec(userInput); 
+	}
+
+	private static void caclIntegerBinary() {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int num;
+		System.out.println("Please enter integer to convert to binary: ");
+		num = sc.nextInt();
+		String result = "";
+		
+		while(num > 0) {
+			result = ((num % 2) == 0 ? "0" : "1") + result;
+			num = num / 2;
+		}
+		
+		System.out.println(result);
+	}
+	
+	
+	private static void caclIntegerBinaryToDec(int a) {
+		// TODO Auto-generated method stub
+	
+		int result = 0;
+		
+		int userInput = 0;
+		
+		int counter = 0;
+		
+		while(true) {
+			if (a == 0) {
+				break;
+			} else {
+				int temp = a % 10;
+				userInput += temp * Math.pow(2, counter);
+				a = a/10;
+				counter++;
+			}
+		}
+		System.out.println("Binary to int is + " + userInput);;
+		
+	}
+
+	
+}

@@ -1,0 +1,138 @@
+INFO  09:24:34,633 [saros-connect-xmpp] (?:?) Starting Saros 16.0.1 running:
+  Java Version: 1.8.0_282
+  Java Vendor: Amazon.com Inc.
+  Eclipse Runtime Version: 3.17.100.v20200203-0917
+  Operating System: Windows 10 (10.0)
+  Hardware Architecture: amd64
+INFO  09:24:34,680 [saros-connect-xmpp] (?:?) initializing context...
+INFO  09:24:35,099 [saros-connect-xmpp] (?:?) initializing preference default values
+INFO  09:24:35,168 [saros-connect-xmpp] (?:?) successfully initialized context
+INFO  09:24:47,113 [saros-connect-xmpp] (?:?) discovered 1 gateway(s)
+ERROR 10:32:13,719 [saros-connect-xmpp] (?:?)  new connection state == ERROR
+SASL authentication DIGEST-MD5 failed: text: 
+	at org.jivesoftware.smack.SASLAuthentication.authenticate(SASLAuthentication.java:342)
+	at org.jivesoftware.smack.XMPPConnection.login(XMPPConnection.java:243)
+	at saros.net.xmpp.XMPPConnectionService.connect(XMPPConnectionService.java:266)
+	at saros.communication.connection.ConnectionHandler.connectXMPPInternal(ConnectionHandler.java:219)
+	at saros.communication.connection.ConnectionHandler.connect(ConnectionHandler.java:150)
+	at saros.ui.util.XMPPConnectionSupport.lambda$0(XMPPConnectionSupport.java:181)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.lang.Thread.run(Thread.java:748)
+ERROR 10:32:28,109 [saros-connect-xmpp] (?:?)  new connection state == ERROR
+SASL authentication DIGEST-MD5 failed: text: 
+	at org.jivesoftware.smack.SASLAuthentication.authenticate(SASLAuthentication.java:342)
+	at org.jivesoftware.smack.XMPPConnection.login(XMPPConnection.java:243)
+	at saros.net.xmpp.XMPPConnectionService.connect(XMPPConnectionService.java:266)
+	at saros.communication.connection.ConnectionHandler.connectXMPPInternal(ConnectionHandler.java:219)
+	at saros.communication.connection.ConnectionHandler.connect(ConnectionHandler.java:150)
+	at saros.ui.util.XMPPConnectionSupport.lambda$0(XMPPConnectionSupport.java:181)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.lang.Thread.run(Thread.java:748)
+WARN  10:34:46,580 [ModalContext] (AddContactUtility.java:87) Problem while adding a contact.CancellationException User decided to add contact anyway. Problem: subscription-required(407) Not subscribed
+WARN  10:35:33,522 [Worker-219: Session Startup] (ConsistencyAction.java:172) watchdog client component is not available, cannot perform inconsistency notification
+INFO  10:35:33,564 [Worker-219: Session Startup] (SarosSessionManager.java:272) session started
+DEBUG 10:35:34,408 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/mmohamed252@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 10:35:45,771 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/mmohamed252@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 10:35:51,116 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/mmohamed252@saros-con.imp.fu-berlin.de/Saros with state: inactive
+INFO  10:35:53,746 [Smack Listener Processor (2)] (SingleUserChatService.java:80) chat created between mmohamed252@saros-con.imp.fu-berlin.de/Saros <->ct@saros-con.imp.fu-berlin.de/Saros, created local: false
+INFO  10:37:13,964 [Worker-218: Inviting Connor (ct@saros-con.imp.fu-berlin.de)...] (SarosSession.java:354) user ct@saros-con.imp.fu-berlin.de/Saros joined session
+DEBUG 10:37:14,023 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: active
+INFO  10:38:10,005 [Worker-219: Synchronizing projects] (SarosSession.java:360) user ct@saros-con.imp.fu-berlin.de/Saros started queuing projects and can receive IResourceActivities
+INFO  10:38:12,435 [Worker-219: Synchronizing projects] (SarosSession.java:389) user ct@saros-con.imp.fu-berlin.de/Saros now has Projects and can process IResourceActivities
+WARN  10:38:41,564 [ModalContext] (AddContactUtility.java:87) Problem while adding a contact.CancellationException User decided to add contact anyway. Problem: subscription-required(407) Not subscribed
+DEBUG 10:38:52,966 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 10:38:53,800 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 10:38:55,155 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 10:38:57,053 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 10:39:06,997 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/sau@saros-con.imp.fu-berlin.de/Saros with state: active
+INFO  10:39:07,184 [Worker-223: Inviting Samuel (sau@saros-con.imp.fu-berlin.de)...] (SarosSession.java:354) user sau@saros-con.imp.fu-berlin.de/Saros joined session
+INFO  10:39:35,275 [Worker-223: Synchronizing projects] (SarosSession.java:360) user sau@saros-con.imp.fu-berlin.de/Saros started queuing projects and can receive IResourceActivities
+INFO  10:39:37,693 [Worker-223: Synchronizing projects] (SarosSession.java:389) user sau@saros-con.imp.fu-berlin.de/Saros now has Projects and can process IResourceActivities
+DEBUG 10:39:39,436 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/sau@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 10:39:39,886 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/sau@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 10:57:51,450 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 10:57:52,030 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 10:57:52,629 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 10:58:02,733 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:00:27,389 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/sau@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:00:30,966 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/sau@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:00:42,835 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:00:49,963 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:00:55,509 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:01:00,945 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:05:20,277 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:05:20,797 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:05:27,756 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/sau@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:05:36,968 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/sau@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:05:40,423 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/sau@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:05:40,598 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/sau@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:05:44,514 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:05:45,365 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:05:46,812 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:05:48,262 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:11:36,078 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:11:36,912 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:11:37,368 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:11:39,868 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:11:40,805 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:11:41,187 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:19:06,015 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/sau@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:19:06,456 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/sau@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:19:11,857 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:19:12,242 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:19:27,442 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:19:29,398 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/sau@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:19:34,077 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:19:49,922 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/sau@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:20:23,815 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:20:25,821 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:20:27,216 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:20:35,355 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:20:36,661 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:20:39,486 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/sau@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:20:40,287 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/sau@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:20:51,885 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:20:52,780 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:20:53,034 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:49:59,218 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/sau@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:50:01,534 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/sau@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:50:08,838 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:50:14,988 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:50:18,503 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:50:19,983 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:50:22,409 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/sau@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:50:23,452 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/sau@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:50:28,590 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:50:31,320 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:50:32,552 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:50:33,443 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:50:35,161 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/sau@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:50:37,111 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:50:38,547 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:50:39,228 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:50:39,637 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:50:40,020 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/sau@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:50:40,444 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:50:40,793 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:50:41,853 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:50:42,699 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:51:11,061 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/mmohamed252@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 11:51:18,354 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/mmohamed252@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 11:52:34,440 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 12:07:56,807 [Smack Listener Processor (2)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1567234287@conference.saros-con.imp.fu-berlin.de/ct@saros-con.imp.fu-berlin.de/Saros with state: inactive
+INFO  13:45:01,077 [saros-remove-sau@saros-con.imp.fu-berlin.de/Saros] (SarosSession.java:468) user sau@saros-con.imp.fu-berlin.de/Saros left session
+INFO  13:51:36,796 [saros-DispatchContext] (NegotiationPacketListener.java:227) received invitation from sau@saros-con.imp.fu-berlin.de/Saros [negotiation id: 4604384989191685056, session id: 1515816679, version: 16.0.1]
+INFO  13:51:36,796 [saros-DispatchContext] (NegotiationPacketListener.java:241) rejecting session negotiation request with id: 4604384989191685056
+ERROR 13:52:16,196 [saros-activity-sender] (ActivitySequencer.java:528) failed to sent activities: [ChecksumActivity(path: SPath [project=P/coreJavaExerciseOperatorsAndNumbers (EclipseProjectImpl), projectRelativePath=src/coreJavaExerciseOperatorsAndNumbers/main/Main.java], hash: -1805767228, length: 2980, jupiterTimestamp: [1118,856])]
+java.io.IOException: not connected to ct@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at saros.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:96)
+	at saros.session.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:526)
+	at saros.session.internal.ActivitySequencer.access$3(ActivitySequencer.java:461)
+	at saros.session.internal.ActivitySequencer$2.run(ActivitySequencer.java:147)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.lang.Thread.run(Thread.java:748)
+INFO  13:52:21,021 [saros-kill-user-ct-tx] (SarosSession.java:468) user ct@saros-con.imp.fu-berlin.de/Saros left session
+INFO  13:52:21,036 [saros-StopSession] (SarosSessionManager.java:332) session stopped
+INFO  17:01:37,904 [saros-shutdown] (ContainerContext.java:205) disposing context...
+INFO  17:01:37,906 [saros-shutdown] (ContainerContext.java:209) successfully disposed context
+INFO  17:01:38,200 [Framework stop] (Saros.java:137) Stopping Saros 16.0.1

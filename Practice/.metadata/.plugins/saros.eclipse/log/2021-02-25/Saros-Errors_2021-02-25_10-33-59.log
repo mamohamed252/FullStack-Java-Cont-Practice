@@ -1,0 +1,31 @@
+ERROR 10:32:13,719 [saros-connect-xmpp] (?:?)  new connection state == ERROR
+SASL authentication DIGEST-MD5 failed: text: 
+	at org.jivesoftware.smack.SASLAuthentication.authenticate(SASLAuthentication.java:342)
+	at org.jivesoftware.smack.XMPPConnection.login(XMPPConnection.java:243)
+	at saros.net.xmpp.XMPPConnectionService.connect(XMPPConnectionService.java:266)
+	at saros.communication.connection.ConnectionHandler.connectXMPPInternal(ConnectionHandler.java:219)
+	at saros.communication.connection.ConnectionHandler.connect(ConnectionHandler.java:150)
+	at saros.ui.util.XMPPConnectionSupport.lambda$0(XMPPConnectionSupport.java:181)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.lang.Thread.run(Thread.java:748)
+ERROR 10:32:28,109 [saros-connect-xmpp] (?:?)  new connection state == ERROR
+SASL authentication DIGEST-MD5 failed: text: 
+	at org.jivesoftware.smack.SASLAuthentication.authenticate(SASLAuthentication.java:342)
+	at org.jivesoftware.smack.XMPPConnection.login(XMPPConnection.java:243)
+	at saros.net.xmpp.XMPPConnectionService.connect(XMPPConnectionService.java:266)
+	at saros.communication.connection.ConnectionHandler.connectXMPPInternal(ConnectionHandler.java:219)
+	at saros.communication.connection.ConnectionHandler.connect(ConnectionHandler.java:150)
+	at saros.ui.util.XMPPConnectionSupport.lambda$0(XMPPConnectionSupport.java:181)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.lang.Thread.run(Thread.java:748)
+WARN  10:34:46,580 [ModalContext] (AddContactUtility.java:87) Problem while adding a contact.CancellationException User decided to add contact anyway. Problem: subscription-required(407) Not subscribed
+WARN  10:35:33,522 [Worker-219: Session Startup] (ConsistencyAction.java:172) watchdog client component is not available, cannot perform inconsistency notification
+WARN  10:38:41,564 [ModalContext] (AddContactUtility.java:87) Problem while adding a contact.CancellationException User decided to add contact anyway. Problem: subscription-required(407) Not subscribed
+ERROR 13:52:16,196 [saros-activity-sender] (ActivitySequencer.java:528) failed to sent activities: [ChecksumActivity(path: SPath [project=P/coreJavaExerciseOperatorsAndNumbers (EclipseProjectImpl), projectRelativePath=src/coreJavaExerciseOperatorsAndNumbers/main/Main.java], hash: -1805767228, length: 2980, jupiterTimestamp: [1118,856])]
+java.io.IOException: not connected to ct@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at saros.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:96)
+	at saros.session.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:526)
+	at saros.session.internal.ActivitySequencer.access$3(ActivitySequencer.java:461)
+	at saros.session.internal.ActivitySequencer$2.run(ActivitySequencer.java:147)
+	at saros.util.ThreadUtils$1.run(ThreadUtils.java:34)
+	at java.lang.Thread.run(Thread.java:748)

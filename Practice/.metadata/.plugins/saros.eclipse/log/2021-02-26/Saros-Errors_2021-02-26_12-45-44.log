@@ -1,0 +1,13 @@
+WARN  12:45:44,081 [ModalContext] (AddContactUtility.java:87) Problem while adding a contact.CancellationException User decided to add contact anyway. Problem: subscription-required(407) Not subscribed
+ERROR 12:48:56,189 [main] (AddProjectToSessionWizard.java:220) could not compute local file list
+org.eclipse.core.internal.resources.ResourceException(/week5SandBox)[275]: java.lang.Exception: A resource exists with a different case: '/week5SandBox'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:318)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:56)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:247)
+	at saros.ui.wizards.AddProjectToSessionWizard$7.run(AddProjectToSessionWizard.java:513)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)

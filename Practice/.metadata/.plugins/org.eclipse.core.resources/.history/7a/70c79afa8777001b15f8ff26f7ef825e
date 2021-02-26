@@ -1,0 +1,84 @@
+package coreJavaExerciseOperatorsAndNumbers.main;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		//caclIntegerBinary();
+		//caclIntegerBinaryToDec();
+		//calcIntergerToBinaryJavaFunctionLeft();
+		calcIntergerToBinaryJavaFunctionRight();
+	}
+
+	private static void caclIntegerBinary() {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int num;
+		System.out.println("Please enter integer to convert to binary: ");
+		num = sc.nextInt();
+		String result = "";
+		
+		while(num > 0) {
+			result = ((num % 2) == 0 ? "0" : "1") + result;
+			num = num / 2;
+		}
+		
+		System.out.println(result);
+	
+	}
+	
+	
+	private static void caclIntegerBinaryToDec() {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Please enter binary number: ");
+		int result = 0;
+		int userInput = sc.nextInt();
+		
+		int counter = 0;
+		
+		while(true) {
+			if (userInput == 0) {
+				break;
+			} else {
+				int temp = userInput % 10;
+				result += temp * Math.pow(2, counter);
+				userInput= userInput/10;
+				counter++;
+			}
+		}
+		System.out.println("Binary to int is + " + result);;
+		
+	}
+	
+	private static void calcIntergerToBinaryJavaFunctionLeft() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter integer to be converted into binary: ");
+		
+		int userInput = sc.nextInt();
+		
+		Integer.toBinaryString(userInput);
+		int result = userInput << 1;
+		// I guess it will be binary 4 for the decimal 2
+		// You may check for the numbers 2, 9, 17 and 88
+		System.out.println("Binary Number Shifted left 1 is: " + result);
+	}
+	
+	private static void calcIntergerToBinaryJavaFunctionRight() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter integer to be converted into binary: ");
+		
+		int userInput = sc.nextInt();
+		
+		Integer.toBinaryString(userInput);
+		int result = userInput >> 2;
+		// I guess it will be binary 37 for the decimal 150
+		// You may check for the numbers 150, 225, 1555 and 32456
+		System.out.println("Binary Number Shifted left 1 is: " + result);
+	}
+
+}

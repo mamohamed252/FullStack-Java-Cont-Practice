@@ -1,0 +1,27 @@
+package coreJavaExerciseLoops;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		loopToTen();
+	}
+	
+	private static void loopToTen(){
+		System.out.println("Numbers 1 - 10");
+		for (int i = 1; i <= 10; i++) {
+			System.out.println(i);
+		}
+	}
+	
+	private static void whileloopIncrements(){
+		System.out.println("Numbers 0 - 100");
+		int num = 0;
+		while (num <= 100) {
+			System.out.println(num);
+			num = num + 1;
+		}
+	}
+	
+
+}

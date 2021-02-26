@@ -1,0 +1,43 @@
+package sandBoxArrays;
+
+public class ArraySlide_30 {
+
+	private static void main() {
+		// TODO Auto-generated method stub
+
+	}
+
+	public static void calcAvgArray() {
+		//1. out put = print "how many numbers are above the average"
+		//2. input = "Generate/read 100 numbers. Store the number in an Array"
+		//3. process = compute their avg. 
+		// declare variable avg.
+		// Count out how many numbers are above the average. Declare a variable highNumber.
+
+		int[] arr = new int[100];
+
+		for (int i = 0; i < 100; i++) {
+			arr[i] = i * 2;
+		}
+
+		double average = 0;
+		for (int i = 0; i < arr.length; i++) {
+			average += arr[i];
+		}
+		average /= arr.length;
+
+		int highNumber = 0;
+
+		for (int i = 0; i < arr.length; i++) {
+			if(arr[i] > average) {
+				highNumber++;
+			}else {
+				continue;
+			}
+		}
+		System.out.printf("\nHow many number are above the average:%d\n", average);
+
+	}
+
+
+}

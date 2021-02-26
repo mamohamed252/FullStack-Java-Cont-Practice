@@ -1,0 +1,33 @@
+INFO  12:59:57,504 [saros-DispatchContext] (NegotiationPacketListener.java:227) Starting Saros 16.0.1 running:
+  Java Version: 1.8.0_282
+  Java Vendor: Amazon.com Inc.
+  Eclipse Runtime Version: 3.17.100.v20200203-0917
+  Operating System: Windows 10 (10.0)
+  Hardware Architecture: amd64
+INFO  12:59:57,528 [saros-DispatchContext] (NegotiationPacketListener.java:227) initializing context...
+INFO  12:59:57,842 [saros-DispatchContext] (NegotiationPacketListener.java:227) initializing preference default values
+INFO  12:59:57,884 [saros-DispatchContext] (NegotiationPacketListener.java:227) successfully initialized context
+INFO  13:00:45,079 [saros-DispatchContext] (NegotiationPacketListener.java:227) received invitation from thomaswrobel@saros-con.imp.fu-berlin.de/Saros [negotiation id: -1258738275026564577, session id: 1975009004, version: 16.0.1]
+INFO  13:00:47,517 [ModalContext] (SarosSessionManager.java:288) joined uninitialized Saros session
+INFO  13:00:47,518 [ModalContext] (DataTransferManager.java:269) establishing connection to thomaswrobel@saros-con.imp.fu-berlin.de/Saros from mmohamed252@saros-con.imp.fu-berlin.de/Saros using stream service XMPP-Socks5-Stream-Service
+DEBUG 13:00:59,742 [Smack Listener Processor (0)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1975009004@conference.saros-con.imp.fu-berlin.de/thomaswrobel@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 13:00:59,889 [Smack Listener Processor (0)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1975009004@conference.saros-con.imp.fu-berlin.de/mmohamed252@saros-con.imp.fu-berlin.de/Saros with state: active
+INFO  13:01:00,189 [saros-DispatchContext] (NegotiationPacketListener.java:310) received project negotiation from thomaswrobel@saros-con.imp.fu-berlin.de/Saros with negotiation id: 4612367941909759673
+INFO  13:01:06,843 [saros-DispatchContext] (SarosSession.java:389) user thomaswrobel@saros-con.imp.fu-berlin.de/Saros now has Projects and can process IResourceActivities
+INFO  13:02:03,294 [saros-DispatchContext] (NegotiationPacketListener.java:227) received invitation from mcordon@saros-con.imp.fu-berlin.de/Saros [negotiation id: -4857446388325093318, session id: 1664283909, version: 16.0.1]
+INFO  13:02:03,295 [saros-DispatchContext] (NegotiationPacketListener.java:241) rejecting session negotiation request with id: -4857446388325093318
+INFO  13:07:53,613 [saros-stop-host] (SarosSessionManager.java:332) session stopped
+INFO  13:55:44,749 [saros-DispatchContext] (NegotiationPacketListener.java:227) received invitation from mcordon@saros-con.imp.fu-berlin.de/Saros [negotiation id: -6744760032194918952, session id: 79619455, version: 16.0.1]
+INFO  13:55:50,224 [ModalContext] (SarosSessionManager.java:288) joined uninitialized Saros session
+INFO  13:55:50,224 [ModalContext] (DataTransferManager.java:269) establishing connection to mcordon@saros-con.imp.fu-berlin.de/Saros from mmohamed252@saros-con.imp.fu-berlin.de/Saros using stream service XMPP-Socks5-Stream-Service
+INFO  13:55:53,573 [saros-DispatchContext] (SarosSession.java:354) user dchou@saros-con.imp.fu-berlin.de/Saros joined session
+DEBUG 13:55:53,722 [Smack Listener Processor (0)] (MultiUserChatStateManager.java:98) Incoming Message from saros_79619455@conference.saros-con.imp.fu-berlin.de/mcordon@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 13:55:53,723 [Smack Listener Processor (0)] (MultiUserChatStateManager.java:98) Incoming Message from saros_79619455@conference.saros-con.imp.fu-berlin.de/dchou@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 13:55:53,871 [Smack Listener Processor (0)] (MultiUserChatStateManager.java:98) Incoming Message from saros_79619455@conference.saros-con.imp.fu-berlin.de/mmohamed252@saros-con.imp.fu-berlin.de/Saros with state: active
+INFO  13:55:54,265 [saros-DispatchContext] (NegotiationPacketListener.java:310) received project negotiation from mcordon@saros-con.imp.fu-berlin.de/Saros with negotiation id: 5386715855379553655
+INFO  13:56:04,922 [saros-DispatchContext] (SarosSession.java:389) user mcordon@saros-con.imp.fu-berlin.de/Saros now has Projects and can process IResourceActivities
+INFO  13:56:12,759 [saros-DispatchContext] (SarosSession.java:468) user dchou@saros-con.imp.fu-berlin.de/Saros left session
+INFO  14:10:43,605 [saros-disconnect-xmpp] (SarosSessionManager.java:332) session stopped
+INFO  15:09:10,071 [saros-shutdown] (ContainerContext.java:205) disposing context...
+INFO  15:09:10,072 [saros-shutdown] (ContainerContext.java:209) successfully disposed context
+INFO  15:09:10,203 [Framework stop] (Saros.java:137) Stopping Saros 16.0.1

@@ -1,0 +1,42 @@
+INFO  09:14:59,350 [ModalContext] (AddContactUtility.java:87) Starting Saros 16.0.1 running:
+  Java Version: 1.8.0_282
+  Java Vendor: Amazon.com Inc.
+  Eclipse Runtime Version: 3.17.100.v20200203-0917
+  Operating System: Windows 10 (10.0)
+  Hardware Architecture: amd64
+INFO  09:14:59,396 [ModalContext] (AddContactUtility.java:87) initializing context...
+INFO  09:15:00,020 [ModalContext] (AddContactUtility.java:87) initializing preference default values
+INFO  09:15:00,099 [ModalContext] (AddContactUtility.java:87) successfully initialized context
+WARN  12:45:44,081 [ModalContext] (AddContactUtility.java:87) Problem while adding a contact.CancellationException User decided to add contact anyway. Problem: subscription-required(407) Not subscribed
+INFO  12:48:26,133 [saros-DispatchContext] (NegotiationPacketListener.java:227) received invitation from thomaswrobel@saros-con.imp.fu-berlin.de/Saros [negotiation id: 3254030891682696750, session id: 1157969600, version: 16.0.1]
+INFO  12:48:34,560 [ModalContext] (SarosSessionManager.java:288) joined uninitialized Saros session
+INFO  12:48:34,560 [ModalContext] (DataTransferManager.java:269) establishing connection to thomaswrobel@saros-con.imp.fu-berlin.de/Saros from mmohamed252@saros-con.imp.fu-berlin.de/Saros using stream service XMPP-Socks5-Stream-Service
+INFO  12:48:46,433 [saros-DispatchContext] (SarosSession.java:354) user amyalbrecht@saros-con.imp.fu-berlin.de/Saros joined session
+DEBUG 12:48:46,526 [Smack Listener Processor (0)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1157969600@conference.saros-con.imp.fu-berlin.de/thomaswrobel@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 12:48:46,527 [Smack Listener Processor (0)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1157969600@conference.saros-con.imp.fu-berlin.de/amyalbrecht@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 12:48:46,674 [Smack Listener Processor (0)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1157969600@conference.saros-con.imp.fu-berlin.de/mmohamed252@saros-con.imp.fu-berlin.de/Saros with state: active
+INFO  12:48:47,022 [saros-DispatchContext] (NegotiationPacketListener.java:310) received project negotiation from thomaswrobel@saros-con.imp.fu-berlin.de/Saros with negotiation id: 542083138265022982
+INFO  12:48:54,310 [saros-DispatchContext] (SarosSession.java:354) user dchou@saros-con.imp.fu-berlin.de/Saros joined session
+DEBUG 12:48:54,494 [Smack Listener Processor (0)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1157969600@conference.saros-con.imp.fu-berlin.de/dchou@saros-con.imp.fu-berlin.de/Saros with state: active
+ERROR 12:48:56,189 [main] (AddProjectToSessionWizard.java:220) could not compute local file list
+org.eclipse.core.internal.resources.ResourceException(/week5SandBox)[275]: java.lang.Exception: A resource exists with a different case: '/week5SandBox'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:318)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:56)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:247)
+	at saros.ui.wizards.AddProjectToSessionWizard$7.run(AddProjectToSessionWizard.java:513)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+DEBUG 12:48:57,193 [Smack Listener Processor (0)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1157969600@conference.saros-con.imp.fu-berlin.de/thomaswrobel@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 12:48:59,203 [Smack Listener Processor (0)] (MultiUserChatStateManager.java:98) Incoming Message from saros_1157969600@conference.saros-con.imp.fu-berlin.de/thomaswrobel@saros-con.imp.fu-berlin.de/Saros with state: inactive
+INFO  12:49:11,104 [saros-DispatchContext] (SarosSession.java:389) user thomaswrobel@saros-con.imp.fu-berlin.de/Saros now has Projects and can process IResourceActivities
+INFO  12:50:30,405 [saros-DispatchContext] (SarosSession.java:389) user thomaswrobel@saros-con.imp.fu-berlin.de/Saros now has Projects and can process IResourceActivities
+INFO  12:51:32,592 [saros-DispatchContext] (SarosSession.java:389) user thomaswrobel@saros-con.imp.fu-berlin.de/Saros now has Projects and can process IResourceActivities
+INFO  12:54:56,186 [saros-DispatchContext] (SarosSession.java:468) user dchou@saros-con.imp.fu-berlin.de/Saros left session
+INFO  12:57:11,599 [saros-shutdown] (SarosSessionManager.java:332) session stopped
+INFO  12:57:11,754 [saros-shutdown] (ContainerContext.java:205) disposing context...
+INFO  12:57:11,755 [saros-shutdown] (ContainerContext.java:209) successfully disposed context
+INFO  12:57:11,938 [Framework stop] (Saros.java:137) Stopping Saros 16.0.1

@@ -1,0 +1,44 @@
+package arrays;
+
+import java.util.Arrays;
+
+public class ArrayMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		simpleArray();
+		middleArray();
+	}
+
+	private static void simpleArray() {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * Write a program that creates an array of integers 
+		 * with a length of 3. 
+		 * Assign the values 1, 2, and 3 to the indexes. 
+		 * Print out each array element.
+		 */
+		int[] threeArray = {1, 2, 3};
+		System.out.println("Your array: " + Arrays.toString(threeArray));
+	}
+	private static void middleArray() {
+		// TODO Auto-generated method stub
+		/*
+		 * Write a program that returns the middle element
+		 *  in an array. Give the following values to the 
+		 *  integer array: {13, 5, 7, 68, 2}
+		 *   and produce the following output: 7
+		 */
+		
+		int[] array = {13, 5, 7, 68, 2};
+		
+		int mid = array.length / 2;
+		System.out.println("Your array: " + Arrays.toString(array));
+		System.out.println("Middle value is: " + array[mid]);
+		
+	}
+	
+	
+
+}
