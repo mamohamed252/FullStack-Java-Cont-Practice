@@ -14,6 +14,7 @@ public class SandboxConditionals {
 		
 		slide34();
 	}
+	@SuppressWarnings("unused")
 	private static void slide34() {
 		
 		if (false) {

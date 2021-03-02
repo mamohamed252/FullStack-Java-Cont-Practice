@@ -2,9 +2,25 @@ package arrays;
 
 import java.util.Arrays;
 
+
 public class ArrayMain {
 
 	public static void main(String[] args) {
+//		System.out.println(args);
+//		System.out.println(args.length);
+//		if (args.length > 0) {
+////			System.out.println(args[0]);
+////			System.out.println(args[1]);
+////			System.out.println(args[2]);
+////			System.out.println(args[3]);
+////			System.out.println(args[4]);
+////			System.out.println(args[5]);
+//			for (int i = 0; i <= args.length - 1; i++) {
+//				System.out.println(args[i]);
+//			}
+//			System.out.println(Arrays.toString(args));
+//		}
+	
 		// TODO Auto-generated method stub
 		//simpleArray();
 		//middleArray();
@@ -14,8 +30,7 @@ public class ArrayMain {
 		//loopArrayMultiply();
 		//loopArrayNotMiddle();
 		//swapMiddle();
-		comboArray();
-		
+		//comboArray();
 		
 	}
 
