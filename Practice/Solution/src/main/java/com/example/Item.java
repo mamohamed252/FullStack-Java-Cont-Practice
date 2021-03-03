@@ -15,6 +15,11 @@ public class Item{
         // Your code here
     	this.quantity = 1;
     }
+    
+    public Item(String itemName) {
+        // Your code her
+    	this.itemName = itemName;
+    }
     // specified constructor
     public Item(String itemName, String itemDesc, Double itemPrice, Integer availableQuantity) {
         // Your code here
