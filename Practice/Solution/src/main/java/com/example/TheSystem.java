@@ -3,89 +3,72 @@ package com.example;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public abstract class TheSystem {
 
-	public static final String CART_FILE = "sample.txt";
-	public static String DELIMITTER = "  ";
 	private HashMap<String, Item> itemCollection;
 
 	TheSystem() {
 		// Your code here
-
-		itemCollection = new HashMap<>();
-
+		// initialized item collection with empty hashMap
+		itemCollection = new HashMap<String, Item>();
+		// invoking the constructor
+		// if condition is met proceed to try-catch block
 		if (getClass().getSimpleName().equals("AppSystem")) {
-			// this puts items from cart into map
-			loadCart();
-		}
-	}
+			try {
+				// reading file with scanner in try and splitting on delimiter
+				File file = new File("./resources/sample.txt");
+				Scanner sc = new Scanner(file);
+				while (sc.hasNextLine()) {
+					String line = sc.nextLine();
+					// reading each line and splitting on double space.
+					String[] itemInfo = line.split("  ");
+					Item temp = new Item(itemInfo[0], itemInfo[1], Double.parseDouble(itemInfo[2]),
+							Integer.parseInt(itemInfo[3]));
+					itemCollection.put(temp.getItemName(), temp);
+				} // if file not found in scanner then an exception will be caught
 
-	private Item unmarshallItem(String itemAsText) {
-
-		// TODO Auto-generated method stub
-
-		String[] itemTokens = itemAsText.split(DELIMITTER);
-		String itemName = itemTokens[0];
-
-		Item itemFromFile = new Item(itemName);
-
-		itemFromFile.setItemDesc(itemTokens[1]);
-		itemFromFile.setItemPrice(Integer.parseInt(itemTokens[2]));
-		itemFromFile.setAvailableQuantity(Integer.parseInt(itemTokens[3]));
-
-		return itemFromFile;
-	}
-
-	private void loadCart() {
-		Scanner scanner = null;
-
-		try {
-			scanner = new Scanner(
-					new FileReader(CART_FILE));
-		} catch(FileNotFoundException e) {
-			System.out.println("Could not load cart");
+				// close scanner to prevent memory leak
+				sc.close();
+				// catch File not found exception if the try does not contain file.
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();
+			}
 		}
 
-		String currentLine;
-		Item currentItem;
-
-		while(scanner.hasNextLine()) {
-			currentLine = scanner.nextLine();
-			currentItem = unmarshallItem(currentLine);
-			itemCollection.put(currentItem.getItemName(), currentItem);
-		}
-		scanner.close();
 	}
 
-
-	public HashMap<String, Item> getItemCollection(){
-		// Your code here
-
-		// change later. 
-		return null;
+	public HashMap<String, Item> getItemCollection() {
+		return itemCollection;
 	}
 
 	public Boolean checkAvailability(Item item) {
-		// Your code here
-		if(item.getQuantity() >= item.getAvailableQuantity()) {
-			System.out.println("System is unable to add " + item.getItemName() + " to the card. System only has " + item.getAvailableQuantity() + " " + item.getItemName() + "s.");
+		// checks for quantity is greater or equal to available quantity, prints msg and
+		// returns false else returns true
+		if (item.getQuantity() >= item.getAvailableQuantity()) {
+			System.out.println("System is unable to add " + item.getItemName() + " to the card. System only has "
+					+ item.getAvailableQuantity() + " " + item.getItemName() + "s.");
 			return false;
-		}else {
+		} else {
 			return true;
 		}
 	}
 
 	public Boolean add(Item item) {
-		// Your code here
+		// adds item with this method. if item is null returns false. if already in
+		// collection and available increases quantity by 1.
+		// if it does not in collection it adds to it and returns true all else returns
+		// false.
 		if (item == null) {
 			return false;
-		}else if(itemCollection.containsKey(item.getItemName()) && checkAvailability(item)) {
+		} else if (itemCollection.containsKey(item.getItemName()) && checkAvailability(item)) {
 			item.setQuantity(item.getQuantity() + 1);
 			return true;
-		}else if(!itemCollection.containsKey(item.getItemName())) {
+		} else if (!itemCollection.containsKey(item.getItemName())) {
 			itemCollection.put(item.getItemName(), item);
 
 			return true;
@@ -95,7 +78,7 @@ public abstract class TheSystem {
 	}
 
 	public Item remove(String itemName) {
-		// Your code here
+		// removes item and returns what was removed
 		if (itemCollection.containsKey(itemName)) {
 			return itemCollection.remove(itemName);
 		}
@@ -104,4 +87,3 @@ public abstract class TheSystem {
 
 	public abstract void display();
 }
-

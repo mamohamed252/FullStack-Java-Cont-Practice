@@ -6,64 +6,74 @@ public class Item{
 	// requirement 1
 	private String itemName;
 	private String itemDesc;
-	private double itemPrice;
-	private int quantity;
-	private int availableQuantity;
+	private Double itemPrice;
+	private Integer quantity;
+	private Integer availableQuantity;
 		
 	// default constructor
     public Item() {
-        // Your code here
     	this.quantity = 1;
     }
     
-    public Item(String itemName) {
-        // Your code her
-    	this.itemName = itemName;
-    }
     // specified constructor
     public Item(String itemName, String itemDesc, Double itemPrice, Integer availableQuantity) {
-        // Your code here
+    	this.quantity = 1;
     	this.itemName = itemName;
     	this.itemDesc = itemDesc;
     	this.itemPrice = itemPrice;
     	this.availableQuantity = availableQuantity;	
     }
-    
+
+
     // getters and setters for items
+    
     public String getItemName() {
 		return itemName;
 	}
+
 	public void setItemName(String itemName) {
 		this.itemName = itemName;
 	}
+
 	public String getItemDesc() {
 		return itemDesc;
 	}
+
 	public void setItemDesc(String itemDesc) {
 		this.itemDesc = itemDesc;
 	}
-	public double getItemPrice() {
+
+	public Double getItemPrice() {
 		return itemPrice;
 	}
-	public void setItemPrice(double itemPrice) {
+
+	public void setItemPrice(Double itemPrice) {
 		this.itemPrice = itemPrice;
 	}
-	public int getQuantity() {
+
+	public Integer getQuantity() {
 		return quantity;
 	}
-	public void setQuantity(int quantity) {
+
+	public void setQuantity(Integer quantity) {
 		this.quantity = quantity;
 	}
-	public int getAvailableQuantity() {
+
+	public Integer getAvailableQuantity() {
 		return availableQuantity;
 	}
-	public void setAvailableQuantity(int availableQuantity) {
+
+	public void setAvailableQuantity(Integer availableQuantity) {
 		this.availableQuantity = availableQuantity;
 	}
-    
-    
-    
-    
+
+	@Override
+	public String toString() {
+		return "Item [itemName=" + itemName + ", itemDesc=" + itemDesc + ", itemPrice=" + itemPrice + ", quantity="
+				+ quantity + ", availableQuantity=" + availableQuantity + "]";
+	}
+	
+	
     
     
 }
