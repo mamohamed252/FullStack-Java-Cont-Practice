@@ -1,0 +1,86 @@
+EMPLOYEE APPLICATION
+
+REQUIREMENTS:
+
+1. Define a Employee class
+	Fields:
+		- ID : Integer 
+		- firstName : String
+		- lastName : String
+		- Salary : double
+2. Define a Employee Interface
+	
+	Including the "CRUD" operations
+	
+	Operations:
+	- addEmployee(employee) 				 	: boolean
+	- removeEmployee(id) 					 	: Employee or null (current employee record)
+	- updateEmployee(currentId, newEmployee) 	: Employee or null (current employee record)
+	- getEmployeeById(id) 						: Employee or null (current employee record)
+	- getAllEmployees() 						: List<Employees> or null
+	- getEmployeeByFirstName(firstName) 		: List<Employee> or null (current employee record)
+	- existById(id) 							: boolean
+	
+3. Implement the Employee Interface with the class Employees
+	- addEmployee(employee) 				 	: boolean
+	- removeEmployee(id) 					 	: Employee or null (current employee record)
+	- updateEmployee(currentId, newEmployee) 	: Employee or null (current employee record)
+	- getEmployeeById(id) 						: Employee or null (current employee record)
+	- getAllEmployees() 						: List<Employees> or null
+	- getEmployeeByFirstName(firstName) 		: List<Employee> or null (current employee record)
+	- existById(id) 							: boolean
+	
+4. Main application: EmployeeApp class
+
+	Requirements:
+	
+	1. Declare an ArrayList of Employee: employees
+	
+	2. Menu: include the options for each crud operation
+		Display the following menu:
+		1. add
+		2. remove
+		3. update
+		4. get employee by id
+		5. getAllEmployees
+		6. getEmployeeByFirstName
+		7. exit
+		
+	3. Implement each operation or options (crud operations)
+		- get input from user when needed.
+		
+		1. add 						==> createEmployee()
+			- input: employee record
+			- output: saved or error msg: not saved
+			- process: add employee to the Employees list using addEmployee(employee) 				 	: boolean
+			
+		2. remove 					==> deleteEmployee()
+			- input: employee id
+			- output: removed or error msg: not found
+			- process: delete employee from the Employees List using removeEmployee(id)
+			
+		3. update 					==> editEmployee()
+			- input: employee id
+			- output: updated or error msg: not found or not updated
+			- process: update employee from the Employees List using updateEmployee(currentId, newEmployee) 
+			
+			
+		4. get employee by id		==> showEmployeeById()
+			- input: employee id
+			- output: employee record or error msg: not found 
+			- process: get employee from the Employees List using getEmployeeById(id)  
+
+		5. getAllEmployees			==> showAllEmployees()
+			- input: n/a
+			- output: all employee records or error msg: not found 
+			- process: get all employees from the Employees List using getAllEmployees() 
+			
+			 
+		6. getEmployeeByFirstName	==> showEmployeeByFirstName()
+			- input: employee first name
+			- output: employee record or error msg: not found 
+			- process: get employee from the Employees List using getEmployeeByFirstName(firstName) 
+					
+	
+	
+	

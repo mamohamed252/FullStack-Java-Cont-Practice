@@ -6,6 +6,7 @@ public class MainRunner {
 		// TODO Auto-generated method stub
 		System.out.println("Hell world");
 		
+		int arr [] = new int [2];
 		System.out.println();
 		
 	}

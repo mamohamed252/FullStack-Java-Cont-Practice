@@ -85,3 +85,260 @@
 2021-03-03 00:31:52,206 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
 2021-03-03 00:31:52,207 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-03-03 00:31:52,207 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 00:53:32,969 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 00:53:32,969 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 00:53:32,970 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 00:53:32,971 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 00:55:13,435 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 00:55:13,435 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 00:55:13,436 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 00:55:13,436 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 00:58:06,386 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 00:58:06,386 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 00:58:06,387 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 00:58:06,388 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 00:59:23,589 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 00:59:23,590 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 00:59:23,590 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 00:59:23,590 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 09:14:11,169 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-03 10:05:49,407 [Worker-40: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:MainEntryPoint:1.0-SNAPSHOT @ C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\pom.xml.
+2021-03-03 10:05:50,431 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 10:05:50,431 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 10:05:50,433 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 10:05:50,433 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 10:07:00,578 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 10:07:00,578 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 10:07:00,579 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 10:07:00,579 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 10:41:45,909 [Worker-58: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:MainEntryPoint:1.0-SNAPSHOT @ C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\pom.xml.
+2021-03-03 10:41:46,834 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 10:41:46,834 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 10:41:46,835 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 10:41:46,836 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 10:47:16,763 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 10:47:16,763 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 10:47:16,764 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 10:47:16,764 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 15:14:33,667 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-03-03 15:17:50,992 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-03 15:20:07,627 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-03 16:50:55,362 [Worker-37: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:MainEntryPoint:1.0-SNAPSHOT @ C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\pom.xml.
+2021-03-03 16:50:55,890 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 16:50:55,891 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 16:50:55,893 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 16:50:55,893 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 21:20:26,175 [Worker-118: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:MainEntryPoint:1.0-SNAPSHOT @ C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\pom.xml.
+2021-03-03 21:20:27,223 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 21:20:27,223 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 21:20:27,225 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 21:20:27,225 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 21:26:25,393 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 21:26:25,393 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 21:26:25,394 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 21:26:25,394 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 21:43:20,355 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 21:43:20,355 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 21:43:20,356 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 21:43:20,356 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 21:43:46,529 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 21:43:46,529 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 21:43:46,530 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 21:43:46,530 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 21:44:15,070 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 21:44:15,070 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 21:44:15,072 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 21:44:15,072 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 21:44:25,377 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 21:44:25,378 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 21:44:25,378 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 21:44:25,378 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 21:47:05,277 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 21:47:05,277 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 21:47:05,278 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 21:47:05,279 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 21:57:52,743 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 21:57:52,743 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 21:57:52,746 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 21:57:52,746 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:00:29,658 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:00:29,659 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:00:29,660 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:00:29,660 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:02:39,522 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:02:39,522 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:02:39,524 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:02:39,524 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:04:02,965 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:04:02,965 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:04:02,967 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:04:02,967 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:04:22,334 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:04:22,335 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:04:22,335 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:04:22,336 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:05:19,745 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:05:19,745 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:05:19,746 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:05:19,746 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:05:39,459 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:05:39,460 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:05:39,461 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:05:39,461 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:05:48,125 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:05:48,126 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:05:48,127 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:05:48,127 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:08:46,258 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:08:46,259 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:08:46,261 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:08:46,261 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:11:50,355 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:11:50,355 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:11:50,356 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:11:50,356 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:14:14,545 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:14:14,546 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:14:14,547 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:14:14,547 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:15:03,993 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:15:03,994 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:15:03,994 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:15:03,995 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:15:31,709 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:15:31,710 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:15:31,710 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:15:31,711 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:16:54,418 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:16:54,418 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:16:54,420 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:16:54,420 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:18:32,803 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:18:32,803 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:18:32,804 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:18:32,804 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:18:54,757 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:18:54,757 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:18:54,758 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:18:54,758 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:20:02,674 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:20:02,674 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:20:02,674 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:20:02,675 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:21:46,969 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:21:46,969 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:21:46,970 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:21:46,971 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:22:24,371 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:22:24,371 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:22:24,371 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:22:24,372 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:24:20,448 [Worker-135: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:24:20,448 [Worker-135: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:24:20,449 [Worker-135: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:24:20,449 [Worker-135: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:25:31,638 [Worker-129: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:25:31,639 [Worker-129: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:25:31,639 [Worker-129: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:25:31,640 [Worker-129: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:25:44,360 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:25:44,360 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:25:44,361 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:25:44,361 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:26:10,604 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:26:10,605 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:26:10,605 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:26:10,606 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:28:32,142 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:28:32,142 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:28:32,143 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:28:32,143 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:34:32,944 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:34:32,945 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:34:32,945 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:34:32,945 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:35:35,427 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:35:35,427 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:35:35,428 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:35:35,428 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 22:35:50,442 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:35:50,442 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 22:35:50,443 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 22:35:50,443 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 23:05:53,333 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:05:53,333 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 23:05:53,334 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:05:53,334 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 23:29:35,996 [Worker-159: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:29:35,996 [Worker-159: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 23:29:35,997 [Worker-159: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:29:35,997 [Worker-159: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 23:32:22,047 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:32:22,047 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 23:32:22,048 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:32:22,048 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 23:33:22,962 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:33:22,963 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 23:33:22,964 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:33:22,964 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 23:34:35,710 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:34:35,710 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 23:34:35,711 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:34:35,711 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 23:37:40,520 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:37:40,520 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 23:37:40,520 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:37:40,521 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 23:42:56,897 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:42:56,897 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 23:42:56,898 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:42:56,898 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 23:55:31,460 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:55:31,460 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 23:55:31,461 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:55:31,461 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 23:57:04,232 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:57:04,233 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 23:57:04,233 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:57:04,234 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 23:57:22,858 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:57:22,858 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 23:57:22,859 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:57:22,859 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-03 23:58:31,429 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:58:31,430 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-03 23:58:31,430 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-03 23:58:31,430 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-04 00:05:51,741 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-04 00:05:51,741 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-04 00:05:51,742 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-04 00:05:51,742 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-04 00:17:38,546 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-04 00:17:38,546 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-04 00:17:38,547 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-04 00:17:38,547 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-04 00:18:42,081 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-04 00:18:42,082 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-04 00:18:42,082 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-04 00:18:42,082 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-04 00:20:43,051 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-04 00:20:43,051 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-04 00:20:43,052 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-04 00:20:43,052 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-04 00:36:55,712 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-04 00:36:55,712 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-04 00:36:55,713 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-04 00:36:55,713 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-04 00:38:16,282 [Worker-184: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-04 00:38:16,282 [Worker-184: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-04 00:38:16,283 [Worker-184: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-04 00:38:16,283 [Worker-184: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-04 00:39:09,761 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-04 00:39:09,762 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-04 00:39:09,762 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-04 00:39:09,763 [Worker-187: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-04 00:57:04,807 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-04 00:57:04,808 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\main\resources
+2021-03-04 00:57:04,808 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-04 00:57:04,809 [Worker-190: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Mohamed\Desktop\OptumPractice\OptumFullStack-Java-Cont-Practice\Practice\Solution\src\test\resources
+2021-03-04 10:06:33,626 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

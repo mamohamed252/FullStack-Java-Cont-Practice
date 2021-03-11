@@ -30,7 +30,7 @@ public class DvdController {
 
     public void run() {
         boolean keepGoing = true;
-        int menuSelection = 0;
+        int menuSelection = ha;
         try{
         while (keepGoing) {
             
