@@ -22,10 +22,10 @@ import java.util.List;
 public interface EmployeeI {
 	public boolean addEmployee(Employee employee);
 	public Employee removeEmployee(Integer id);
-//	public boolean updateEmployee(Employee currentEmployee, Employee newEmployee);
-//	public Employee getEmployeeById(Integer id);
-//	public HashMap<Integer, Employee> getAllEmployees();
-//	public HashMap<Integer, Employee> getEmployeesByFirstname(String firstName);
-//	public boolean existById(Integer id);
+	public boolean updateEmployee(Employee currentEmployee, Employee newEmployee);
+	public Employee getEmployeeById(Integer id);
+	public HashMap<Integer, Employee> getAllEmployees();
+	public HashMap<Integer, Employee> getEmployeesByFirstname(String firstName);
+	public boolean existById(Integer id);
 
 }

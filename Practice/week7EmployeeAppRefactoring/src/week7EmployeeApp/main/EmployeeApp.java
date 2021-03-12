@@ -109,7 +109,7 @@ public class EmployeeApp {
 		System.out.println("Show Employee By Name");
 		System.out.println("First Name: ");
 		String firstName = sc.nextLine().toUpperCase();
-		List<Employee> employeesFound = employeeServices.getEmployeesByFirstname(firstName); // ricardo
+		HashMap<Integer, Employee> employeesFound = employeeServices.getEmployeesByFirstname(firstName); // ricardo
 		if (employeesFound != null) {
 			// print the employeeFound
 			printList(employeesFound);
@@ -141,8 +141,8 @@ public class EmployeeApp {
 		}
 	}
 	
-	private static void printList(List<Employee> employees) {
-		for(Employee employee : employees) {
+	private static void printList(HashMap<Integer, Employee> employees) {
+		for(Employee employee : employees.values()) {
 			System.out.println(employee);
 		}
 	}
