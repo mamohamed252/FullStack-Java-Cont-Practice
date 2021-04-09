@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.springframework.ide.eclipse.beans.ui.wizards.newBeansConfig"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.springframework.ide.eclipse.beans.ui.wizards.category"/>
+			<item value="org.springsource.ide.eclipse.boot.wizards.category"/>
 		</list>
 	</section>
 	<section name="ImportExportAction">
@@ -46,6 +47,14 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Mohamed\Desktop\ExportedFiles\SchoolManagementMohamedSecondSubmission.zip"/>
+			<item value="C:\Users\Mohamed\Desktop\ExportedFiles\finalSetupMohamed.zip"/>
+			<item value="C:\Users\Mohamed\Desktop\ExportedFiles\mohamedFinalSetUp.zip"/>
+			<item value="C:\Users\Mohamed\Desktop\ExportedFiles\SchoolManagementMohamedFirstSubmission.zip"/>
+			<item value="C:\Users\Mohamed\Desktop\ExportedFiles\EmployeAppJPACRUDComplete.zip"/>
+			<item value="C:\Users\Mohamed\Desktop\ExportedFiles\EmployeeExampleJDBCMarcialCodeAlong.zip"/>
+			<item value="C:\Users\Mohamed\Desktop\ExportedFiles\kbaReviewSamples.zip"/>
+			<item value="C:\Users\Mohamed\Desktop\ExportedFiles\PerScholasJavaOISlidesUpdated.zip"/>
 			<item value="C:\Users\Mohamed\Desktop\ExportedFiles\EmployeeExampleFirstSavePoint.zip"/>
 			<item value="C:\Users\Mohamed\Desktop\ExportedFiles\coreJavaCaféSoftwareDeveloperClubMohamed.zip"/>
 			<item value="C:\Users\Mohamed\Desktop\ExportedFiles\SolutionTestMohamed.zip"/>
